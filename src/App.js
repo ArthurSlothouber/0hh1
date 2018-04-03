@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Board from './containers/Board'
+import CreateGameButton from './components/CreateGameButton'
+
+
 
 class App extends Component {
   render() {
@@ -11,6 +14,7 @@ class App extends Component {
           <h1 className="title">0hh1</h1>
 
         <Board />
+        <CreateGameButton />
 
       </div>
     );
